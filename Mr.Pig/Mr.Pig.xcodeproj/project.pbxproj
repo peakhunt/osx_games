@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A81DA9D21D4C8E5001106D5 /* GameHelperMrPig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A81DA9C21D4C8E5001106D5 /* GameHelperMrPig.m */; };
+		5ADEA30A21D399D800B6D812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA30921D399D800B6D812 /* AppDelegate.m */; };
+		5ADEA30D21D399D800B6D812 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA30C21D399D800B6D812 /* GameViewController.m */; };
+		5ADEA31121D399DA00B6D812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEA31021D399DA00B6D812 /* Assets.xcassets */; };
+		5ADEA31421D399DA00B6D812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEA31221D399DA00B6D812 /* Main.storyboard */; };
+		5ADEA31721D399DA00B6D812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA31621D399DA00B6D812 /* main.m */; };
+		5ADEA32C21D39A2B00B6D812 /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA32221D39A2B00B6D812 /* GameHelper.m */; };
+		5ADEA32D21D39A2B00B6D812 /* GameHelperMarble.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA32421D39A2B00B6D812 /* GameHelperMarble.m */; };
+		5ADEA32E21D39A2B00B6D812 /* NSColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA32621D39A2B00B6D812 /* NSColor+Extensions.m */; };
+		5ADEA32F21D39A2B00B6D812 /* SCNAction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA32821D39A2B00B6D812 /* SCNAction+Extensions.m */; };
+		5ADEA33021D39A2B00B6D812 /* random_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ADEA32A21D39A2B00B6D812 /* random_util.c */; };
+		5ADEA33221D3A76000B6D812 /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADEA33121D3A76000B6D812 /* MrPig.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A81DA9B21D4C872001106D5 /* GameHelperMrPig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHelperMrPig.h; sourceTree = "<group>"; };
+		5A81DA9C21D4C8E5001106D5 /* GameHelperMrPig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHelperMrPig.m; sourceTree = "<group>"; };
+		5ADEA30521D399D800B6D812 /* Mr.Pig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mr.Pig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ADEA30821D399D800B6D812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ADEA30921D399D800B6D812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ADEA30B21D399D800B6D812 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5ADEA30C21D399D800B6D812 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5ADEA31021D399DA00B6D812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ADEA31321D399DA00B6D812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ADEA31521D399DA00B6D812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ADEA31621D399DA00B6D812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ADEA31821D399DA00B6D812 /* Mr_Pig.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mr_Pig.entitlements; sourceTree = "<group>"; };
+		5ADEA32121D39A2B00B6D812 /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
+		5ADEA32221D39A2B00B6D812 /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
+		5ADEA32321D39A2B00B6D812 /* GameHelperMarble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelperMarble.h; sourceTree = "<group>"; };
+		5ADEA32421D39A2B00B6D812 /* GameHelperMarble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelperMarble.m; sourceTree = "<group>"; };
+		5ADEA32521D39A2B00B6D812 /* NSColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Extensions.h"; sourceTree = "<group>"; };
+		5ADEA32621D39A2B00B6D812 /* NSColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Extensions.m"; sourceTree = "<group>"; };
+		5ADEA32721D39A2B00B6D812 /* SCNAction+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNAction+Extensions.h"; sourceTree = "<group>"; };
+		5ADEA32821D39A2B00B6D812 /* SCNAction+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNAction+Extensions.m"; sourceTree = "<group>"; };
+		5ADEA32921D39A2B00B6D812 /* SCNVector3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNVector3Util.h; sourceTree = "<group>"; };
+		5ADEA32A21D39A2B00B6D812 /* random_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random_util.c; sourceTree = "<group>"; };
+		5ADEA32B21D39A2B00B6D812 /* random_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_util.h; sourceTree = "<group>"; };
+		5ADEA33121D3A76000B6D812 /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = MrPig.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ADEA30221D399D800B6D812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ADEA2FC21D399D800B6D812 = {
+			isa = PBXGroup;
+			children = (
+				5ADEA33121D3A76000B6D812 /* MrPig.scnassets */,
+				5ADEA32021D39A2B00B6D812 /* utils */,
+				5ADEA30721D399D800B6D812 /* Mr.Pig */,
+				5ADEA30621D399D800B6D812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ADEA30621D399D800B6D812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEA30521D399D800B6D812 /* Mr.Pig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ADEA30721D399D800B6D812 /* Mr.Pig */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEA30821D399D800B6D812 /* AppDelegate.h */,
+				5ADEA30921D399D800B6D812 /* AppDelegate.m */,
+				5ADEA30B21D399D800B6D812 /* GameViewController.h */,
+				5ADEA30C21D399D800B6D812 /* GameViewController.m */,
+				5ADEA31021D399DA00B6D812 /* Assets.xcassets */,
+				5ADEA31221D399DA00B6D812 /* Main.storyboard */,
+				5ADEA31521D399DA00B6D812 /* Info.plist */,
+				5ADEA31621D399DA00B6D812 /* main.m */,
+				5ADEA31821D399DA00B6D812 /* Mr_Pig.entitlements */,
+			);
+			path = Mr.Pig;
+			sourceTree = "<group>";
+		};
+		5ADEA32021D39A2B00B6D812 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5ADEA32121D39A2B00B6D812 /* GameHelper.h */,
+				5ADEA32221D39A2B00B6D812 /* GameHelper.m */,
+				5ADEA32321D39A2B00B6D812 /* GameHelperMarble.h */,
+				5ADEA32421D39A2B00B6D812 /* GameHelperMarble.m */,
+				5ADEA32521D39A2B00B6D812 /* NSColor+Extensions.h */,
+				5ADEA32621D39A2B00B6D812 /* NSColor+Extensions.m */,
+				5ADEA32721D39A2B00B6D812 /* SCNAction+Extensions.h */,
+				5ADEA32821D39A2B00B6D812 /* SCNAction+Extensions.m */,
+				5ADEA32921D39A2B00B6D812 /* SCNVector3Util.h */,
+				5ADEA32A21D39A2B00B6D812 /* random_util.c */,
+				5ADEA32B21D39A2B00B6D812 /* random_util.h */,
+				5A81DA9B21D4C872001106D5 /* GameHelperMrPig.h */,
+				5A81DA9C21D4C8E5001106D5 /* GameHelperMrPig.m */,
+			);
+			name = utils;
+			path = ../utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ADEA30421D399D800B6D812 /* Mr.Pig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADEA31B21D399DA00B6D812 /* Build configuration list for PBXNativeTarget "Mr.Pig" */;
+			buildPhases = (
+				5ADEA30121D399D800B6D812 /* Sources */,
+				5ADEA30221D399D800B6D812 /* Frameworks */,
+				5ADEA30321D399D800B6D812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mr.Pig;
+			productName = Mr.Pig;
+			productReference = 5ADEA30521D399D800B6D812 /* Mr.Pig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ADEA2FD21D399D800B6D812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KongjaStudio;
+				TargetAttributes = {
+					5ADEA30421D399D800B6D812 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5ADEA30021D399D800B6D812 /* Build configuration list for PBXProject "Mr.Pig" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ADEA2FC21D399D800B6D812;
+			productRefGroup = 5ADEA30621D399D800B6D812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ADEA30421D399D800B6D812 /* Mr.Pig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ADEA30321D399D800B6D812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEA31421D399DA00B6D812 /* Main.storyboard in Resources */,
+				5ADEA33221D3A76000B6D812 /* MrPig.scnassets in Resources */,
+				5ADEA31121D399DA00B6D812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ADEA30121D399D800B6D812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADEA30D21D399D800B6D812 /* GameViewController.m in Sources */,
+				5ADEA32C21D39A2B00B6D812 /* GameHelper.m in Sources */,
+				5ADEA32F21D39A2B00B6D812 /* SCNAction+Extensions.m in Sources */,
+				5A81DA9D21D4C8E5001106D5 /* GameHelperMrPig.m in Sources */,
+				5ADEA31721D399DA00B6D812 /* main.m in Sources */,
+				5ADEA33021D39A2B00B6D812 /* random_util.c in Sources */,
+				5ADEA32D21D39A2B00B6D812 /* GameHelperMarble.m in Sources */,
+				5ADEA32E21D39A2B00B6D812 /* NSColor+Extensions.m in Sources */,
+				5ADEA30A21D399D800B6D812 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ADEA31221D399DA00B6D812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ADEA31321D399DA00B6D812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ADEA31921D399DA00B6D812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5ADEA31A21D399DA00B6D812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5ADEA31C21D399DA00B6D812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mr.Pig/Mr_Pig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mr.Pig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongjastudio.Mr-Pig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ADEA31D21D399DA00B6D812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mr.Pig/Mr_Pig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mr.Pig/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongjastudio.Mr-Pig";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ADEA30021D399D800B6D812 /* Build configuration list for PBXProject "Mr.Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEA31921D399DA00B6D812 /* Debug */,
+				5ADEA31A21D399DA00B6D812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ADEA31B21D399DA00B6D812 /* Build configuration list for PBXNativeTarget "Mr.Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ADEA31C21D399DA00B6D812 /* Debug */,
+				5ADEA31D21D399DA00B6D812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ADEA2FD21D399D800B6D812 /* Project object */;
+}

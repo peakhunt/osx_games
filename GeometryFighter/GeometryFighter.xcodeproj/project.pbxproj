@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A61BC5721CA766D009FCC0B /* random_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A61BC5621CA766D009FCC0B /* random_util.c */; };
-		5A61BC5C21CA7BCD009FCC0B /* NSColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61BC5B21CA7BCD009FCC0B /* NSColor+Extensions.m */; };
-		5A61BC5F21CB14B9009FCC0B /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61BC5E21CB14B9009FCC0B /* GameHelper.m */; };
-		5A61BC6221CB2633009FCC0B /* SCNAction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61BC6121CB2633009FCC0B /* SCNAction+Extensions.m */; };
 		5A61BC6621CB4C4E009FCC0B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A61BC6421CB4C4E009FCC0B /* spark.png */; };
 		5A61BC6721CB4C4E009FCC0B /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5A61BC6521CB4C4E009FCC0B /* Trail.scnp */; };
 		5A61BC8B21CB648F009FCC0B /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5A61BC8A21CB648F009FCC0B /* Explode.scnp */; };
@@ -20,17 +16,13 @@
 		5ACF042F21CA3B4B0007BD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACF042D21CA3B4B0007BD7E /* Main.storyboard */; };
 		5ACF043221CA3B4B0007BD7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF043121CA3B4B0007BD7E /* main.m */; };
 		5ACF043B21CA5A7C0007BD7E /* GeometryFighter.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACF043A21CA5A7C0007BD7E /* GeometryFighter.scnassets */; };
+		5AD106B821CC8ABC003BFCED /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106B121CC8ABC003BFCED /* GameHelper.m */; };
+		5AD106B921CC8ABC003BFCED /* NSColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106B321CC8ABC003BFCED /* NSColor+Extensions.m */; };
+		5AD106BA21CC8ABC003BFCED /* SCNAction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106B521CC8ABC003BFCED /* SCNAction+Extensions.m */; };
+		5AD106BB21CC8ABC003BFCED /* random_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106B621CC8ABC003BFCED /* random_util.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A61BC5521CA7612009FCC0B /* random_util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random_util.h; sourceTree = "<group>"; };
-		5A61BC5621CA766D009FCC0B /* random_util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = random_util.c; sourceTree = "<group>"; };
-		5A61BC5A21CA7A89009FCC0B /* NSColor+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSColor+Extensions.h"; sourceTree = "<group>"; };
-		5A61BC5B21CA7BCD009FCC0B /* NSColor+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Extensions.m"; sourceTree = "<group>"; };
-		5A61BC5D21CB1424009FCC0B /* GameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
-		5A61BC5E21CB14B9009FCC0B /* GameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
-		5A61BC6021CB25AB009FCC0B /* SCNAction+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCNAction+Extensions.h"; sourceTree = "<group>"; };
-		5A61BC6121CB2633009FCC0B /* SCNAction+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCNAction+Extensions.m"; sourceTree = "<group>"; };
 		5A61BC6421CB4C4E009FCC0B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		5A61BC6521CB4C4E009FCC0B /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
 		5A61BC8A21CB648F009FCC0B /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
@@ -46,6 +38,14 @@
 		5ACF043321CA3B4B0007BD7E /* GeometryFighter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeometryFighter.entitlements; sourceTree = "<group>"; };
 		5ACF043A21CA5A7C0007BD7E /* GeometryFighter.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GeometryFighter.scnassets; sourceTree = "<group>"; };
 		5ACF043D21CA5DEF0007BD7E /* ShapeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeTypes.h; sourceTree = "<group>"; };
+		5AD106B021CC8ABC003BFCED /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
+		5AD106B121CC8ABC003BFCED /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
+		5AD106B221CC8ABC003BFCED /* NSColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Extensions.h"; sourceTree = "<group>"; };
+		5AD106B321CC8ABC003BFCED /* NSColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Extensions.m"; sourceTree = "<group>"; };
+		5AD106B421CC8ABC003BFCED /* SCNAction+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNAction+Extensions.h"; sourceTree = "<group>"; };
+		5AD106B521CC8ABC003BFCED /* SCNAction+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNAction+Extensions.m"; sourceTree = "<group>"; };
+		5AD106B621CC8ABC003BFCED /* random_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random_util.c; sourceTree = "<group>"; };
+		5AD106B721CC8ABC003BFCED /* random_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_util.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,21 +59,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A61BC5821CA7900009FCC0B /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				5A61BC5A21CA7A89009FCC0B /* NSColor+Extensions.h */,
-				5A61BC5B21CA7BCD009FCC0B /* NSColor+Extensions.m */,
-				5A61BC5521CA7612009FCC0B /* random_util.h */,
-				5A61BC5621CA766D009FCC0B /* random_util.c */,
-				5A61BC5D21CB1424009FCC0B /* GameHelper.h */,
-				5A61BC5E21CB14B9009FCC0B /* GameHelper.m */,
-				5A61BC6021CB25AB009FCC0B /* SCNAction+Extensions.h */,
-				5A61BC6121CB2633009FCC0B /* SCNAction+Extensions.m */,
-			);
-			path = utils;
-			sourceTree = "<group>";
-		};
 		5A61BC6321CB4C1D009FCC0B /* Particles */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +88,8 @@
 		5ACF042221CA3B4A0007BD7E /* GeometryFighter */ = {
 			isa = PBXGroup;
 			children = (
+				5AD106AF21CC8ABC003BFCED /* utils */,
 				5A61BC6321CB4C1D009FCC0B /* Particles */,
-				5A61BC5821CA7900009FCC0B /* utils */,
 				5ACF043A21CA5A7C0007BD7E /* GeometryFighter.scnassets */,
 				5ACF042321CA3B4A0007BD7E /* AppDelegate.h */,
 				5ACF042421CA3B4A0007BD7E /* AppDelegate.m */,
@@ -118,6 +103,22 @@
 				5ACF043D21CA5DEF0007BD7E /* ShapeTypes.h */,
 			);
 			path = GeometryFighter;
+			sourceTree = "<group>";
+		};
+		5AD106AF21CC8ABC003BFCED /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5AD106B021CC8ABC003BFCED /* GameHelper.h */,
+				5AD106B121CC8ABC003BFCED /* GameHelper.m */,
+				5AD106B221CC8ABC003BFCED /* NSColor+Extensions.h */,
+				5AD106B321CC8ABC003BFCED /* NSColor+Extensions.m */,
+				5AD106B421CC8ABC003BFCED /* SCNAction+Extensions.h */,
+				5AD106B521CC8ABC003BFCED /* SCNAction+Extensions.m */,
+				5AD106B621CC8ABC003BFCED /* random_util.c */,
+				5AD106B721CC8ABC003BFCED /* random_util.h */,
+			);
+			name = utils;
+			path = ../../utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A61BC5721CA766D009FCC0B /* random_util.c in Sources */,
-				5A61BC5F21CB14B9009FCC0B /* GameHelper.m in Sources */,
-				5A61BC6221CB2633009FCC0B /* SCNAction+Extensions.m in Sources */,
-				5A61BC5C21CA7BCD009FCC0B /* NSColor+Extensions.m in Sources */,
 				5ACF042821CA3B4A0007BD7E /* GameViewController.m in Sources */,
+				5AD106B921CC8ABC003BFCED /* NSColor+Extensions.m in Sources */,
+				5AD106BB21CC8ABC003BFCED /* random_util.c in Sources */,
+				5AD106B821CC8ABC003BFCED /* GameHelper.m in Sources */,
 				5ACF043221CA3B4B0007BD7E /* main.m in Sources */,
+				5AD106BA21CC8ABC003BFCED /* SCNAction+Extensions.m in Sources */,
 				5ACF042521CA3B4A0007BD7E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

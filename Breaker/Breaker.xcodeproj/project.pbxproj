@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD1069521CC8751003BFCED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1069421CC8751003BFCED /* AppDelegate.m */; };
+		5AD1069821CC8751003BFCED /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1069721CC8751003BFCED /* GameViewController.m */; };
+		5AD1069A21CC8751003BFCED /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD1069921CC8751003BFCED /* art.scnassets */; };
+		5AD1069F21CC8753003BFCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD1069D21CC8753003BFCED /* Main.storyboard */; };
+		5AD106A221CC8753003BFCED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106A121CC8753003BFCED /* main.m */; };
+		5AD106AA21CC877F003BFCED /* Breaker.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD106A921CC877F003BFCED /* Breaker.scnassets */; };
+		5AD106AE21CC8974003BFCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD106AD21CC8974003BFCED /* Assets.xcassets */; };
+		5AD106C521CC8B43003BFCED /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106BE21CC8B43003BFCED /* GameHelper.m */; };
+		5AD106C621CC8B43003BFCED /* NSColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106C021CC8B43003BFCED /* NSColor+Extensions.m */; };
+		5AD106C721CC8B43003BFCED /* SCNAction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106C221CC8B43003BFCED /* SCNAction+Extensions.m */; };
+		5AD106C821CC8B43003BFCED /* random_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AD106C321CC8B43003BFCED /* random_util.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A1FD1A321CDEB9D00969381 /* SCNVector3Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNVector3Util.h; sourceTree = "<group>"; };
+		5AD1069021CC8751003BFCED /* Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD1069321CC8751003BFCED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD1069421CC8751003BFCED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD1069621CC8751003BFCED /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5AD1069721CC8751003BFCED /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5AD1069921CC8751003BFCED /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5AD1069E21CC8753003BFCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD106A021CC8753003BFCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD106A121CC8753003BFCED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD106A321CC8753003BFCED /* Breaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breaker.entitlements; sourceTree = "<group>"; };
+		5AD106A921CC877F003BFCED /* Breaker.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Breaker.scnassets; sourceTree = "<group>"; };
+		5AD106AD21CC8974003BFCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD106BD21CC8B43003BFCED /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
+		5AD106BE21CC8B43003BFCED /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
+		5AD106BF21CC8B43003BFCED /* NSColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Extensions.h"; sourceTree = "<group>"; };
+		5AD106C021CC8B43003BFCED /* NSColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Extensions.m"; sourceTree = "<group>"; };
+		5AD106C121CC8B43003BFCED /* SCNAction+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNAction+Extensions.h"; sourceTree = "<group>"; };
+		5AD106C221CC8B43003BFCED /* SCNAction+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNAction+Extensions.m"; sourceTree = "<group>"; };
+		5AD106C321CC8B43003BFCED /* random_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random_util.c; sourceTree = "<group>"; };
+		5AD106C421CC8B43003BFCED /* random_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_util.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD1068D21CC8751003BFCED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD1068721CC8751003BFCED = {
+			isa = PBXGroup;
+			children = (
+				5AD1069221CC8751003BFCED /* Breaker */,
+				5AD1069121CC8751003BFCED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD1069121CC8751003BFCED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD1069021CC8751003BFCED /* Breaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD1069221CC8751003BFCED /* Breaker */ = {
+			isa = PBXGroup;
+			children = (
+				5AD106BC21CC8B43003BFCED /* utils */,
+				5AD106A921CC877F003BFCED /* Breaker.scnassets */,
+				5AD106AD21CC8974003BFCED /* Assets.xcassets */,
+				5AD1069321CC8751003BFCED /* AppDelegate.h */,
+				5AD1069421CC8751003BFCED /* AppDelegate.m */,
+				5AD1069621CC8751003BFCED /* GameViewController.h */,
+				5AD1069721CC8751003BFCED /* GameViewController.m */,
+				5AD1069921CC8751003BFCED /* art.scnassets */,
+				5AD1069D21CC8753003BFCED /* Main.storyboard */,
+				5AD106A021CC8753003BFCED /* Info.plist */,
+				5AD106A121CC8753003BFCED /* main.m */,
+				5AD106A321CC8753003BFCED /* Breaker.entitlements */,
+			);
+			path = Breaker;
+			sourceTree = "<group>";
+		};
+		5AD106BC21CC8B43003BFCED /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5AD106BD21CC8B43003BFCED /* GameHelper.h */,
+				5AD106BE21CC8B43003BFCED /* GameHelper.m */,
+				5AD106BF21CC8B43003BFCED /* NSColor+Extensions.h */,
+				5AD106C021CC8B43003BFCED /* NSColor+Extensions.m */,
+				5AD106C121CC8B43003BFCED /* SCNAction+Extensions.h */,
+				5AD106C221CC8B43003BFCED /* SCNAction+Extensions.m */,
+				5AD106C321CC8B43003BFCED /* random_util.c */,
+				5AD106C421CC8B43003BFCED /* random_util.h */,
+				5A1FD1A321CDEB9D00969381 /* SCNVector3Util.h */,
+			);
+			name = utils;
+			path = ../../utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD1068F21CC8751003BFCED /* Breaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD106A621CC8753003BFCED /* Build configuration list for PBXNativeTarget "Breaker" */;
+			buildPhases = (
+				5AD1068C21CC8751003BFCED /* Sources */,
+				5AD1068D21CC8751003BFCED /* Frameworks */,
+				5AD1068E21CC8751003BFCED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Breaker;
+			productName = Breaker;
+			productReference = 5AD1069021CC8751003BFCED /* Breaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD1068821CC8751003BFCED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KongjaStudio;
+				TargetAttributes = {
+					5AD1068F21CC8751003BFCED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AD1068B21CC8751003BFCED /* Build configuration list for PBXProject "Breaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD1068721CC8751003BFCED;
+			productRefGroup = 5AD1069121CC8751003BFCED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD1068F21CC8751003BFCED /* Breaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD1068E21CC8751003BFCED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD1069F21CC8753003BFCED /* Main.storyboard in Resources */,
+				5AD106AA21CC877F003BFCED /* Breaker.scnassets in Resources */,
+				5AD106AE21CC8974003BFCED /* Assets.xcassets in Resources */,
+				5AD1069A21CC8751003BFCED /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD1068C21CC8751003BFCED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD1069821CC8751003BFCED /* GameViewController.m in Sources */,
+				5AD106C621CC8B43003BFCED /* NSColor+Extensions.m in Sources */,
+				5AD106C821CC8B43003BFCED /* random_util.c in Sources */,
+				5AD106C521CC8B43003BFCED /* GameHelper.m in Sources */,
+				5AD106A221CC8753003BFCED /* main.m in Sources */,
+				5AD106C721CC8B43003BFCED /* SCNAction+Extensions.m in Sources */,
+				5AD1069521CC8751003BFCED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AD1069D21CC8753003BFCED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD1069E21CC8753003BFCED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD106A421CC8753003BFCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5AD106A521CC8753003BFCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5AD106A721CC8753003BFCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Breaker/Breaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Breaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjastudio.Breaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD106A821CC8753003BFCED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Breaker/Breaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Breaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjastudio.Breaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD1068B21CC8751003BFCED /* Build configuration list for PBXProject "Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD106A421CC8753003BFCED /* Debug */,
+				5AD106A521CC8753003BFCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD106A621CC8753003BFCED /* Build configuration list for PBXNativeTarget "Breaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD106A721CC8753003BFCED /* Debug */,
+				5AD106A821CC8753003BFCED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD1068821CC8751003BFCED /* Project object */;
+}

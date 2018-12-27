@@ -13,4 +13,5 @@ extern int int_random(int min, int max);
 extern double double_random(double min, double max);
 extern float float_random(float min, float max);
 
+extern float convert_to_radians(float angle);
 #endif /* random_util_h */

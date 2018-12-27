@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4B21C321D0B93B00F383E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21C221D0B93B00F383E1 /* AppDelegate.m */; };
+		5A4B21C621D0B93B00F383E1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21C521D0B93B00F383E1 /* GameViewController.m */; };
+		5A4B21CA21D0B93D00F383E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B21C921D0B93D00F383E1 /* Assets.xcassets */; };
+		5A4B21CD21D0B93D00F383E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B21CB21D0B93D00F383E1 /* Main.storyboard */; };
+		5A4B21D021D0B93D00F383E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21CF21D0B93D00F383E1 /* main.m */; };
+		5A4B21DC21D0BD9900F383E1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B21DB21D0BD9700F383E1 /* art.scnassets */; };
+		5A4B21E721D0F9DB00F383E1 /* GameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21DF21D0F9DB00F383E1 /* GameHelper.m */; };
+		5A4B21E821D0F9DB00F383E1 /* NSColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21E121D0F9DB00F383E1 /* NSColor+Extensions.m */; };
+		5A4B21E921D0F9DB00F383E1 /* SCNAction+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21E321D0F9DB00F383E1 /* SCNAction+Extensions.m */; };
+		5A4B21EA21D0F9DB00F383E1 /* random_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B21E521D0F9DB00F383E1 /* random_util.c */; };
+		5A4B220121D1D15300F383E1 /* GameHelperMarble.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B220021D1D15300F383E1 /* GameHelperMarble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A4B21BE21D0B93B00F383E1 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4B21C121D0B93B00F383E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A4B21C221D0B93B00F383E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A4B21C421D0B93B00F383E1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5A4B21C521D0B93B00F383E1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5A4B21C921D0B93D00F383E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4B21CC21D0B93D00F383E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4B21CE21D0B93D00F383E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4B21CF21D0B93D00F383E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A4B21D121D0B93D00F383E1 /* MarbleMaze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarbleMaze.entitlements; sourceTree = "<group>"; };
+		5A4B21DB21D0BD9700F383E1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5A4B21DE21D0F9DB00F383E1 /* GameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHelper.h; sourceTree = "<group>"; };
+		5A4B21DF21D0F9DB00F383E1 /* GameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHelper.m; sourceTree = "<group>"; };
+		5A4B21E021D0F9DB00F383E1 /* NSColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Extensions.h"; sourceTree = "<group>"; };
+		5A4B21E121D0F9DB00F383E1 /* NSColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Extensions.m"; sourceTree = "<group>"; };
+		5A4B21E221D0F9DB00F383E1 /* SCNAction+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNAction+Extensions.h"; sourceTree = "<group>"; };
+		5A4B21E321D0F9DB00F383E1 /* SCNAction+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNAction+Extensions.m"; sourceTree = "<group>"; };
+		5A4B21E421D0F9DB00F383E1 /* SCNVector3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNVector3Util.h; sourceTree = "<group>"; };
+		5A4B21E521D0F9DB00F383E1 /* random_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = random_util.c; sourceTree = "<group>"; };
+		5A4B21E621D0F9DB00F383E1 /* random_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_util.h; sourceTree = "<group>"; };
+		5A4B21FF21D1D10600F383E1 /* GameHelperMarble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHelperMarble.h; sourceTree = "<group>"; };
+		5A4B220021D1D15300F383E1 /* GameHelperMarble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHelperMarble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4B21BB21D0B93B00F383E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4B21B521D0B93B00F383E1 = {
+			isa = PBXGroup;
+			children = (
+				5A4B21C021D0B93B00F383E1 /* MarbleMaze */,
+				5A4B21BF21D0B93B00F383E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4B21BF21D0B93B00F383E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B21BE21D0B93B00F383E1 /* MarbleMaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4B21C021D0B93B00F383E1 /* MarbleMaze */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B21DD21D0F9DB00F383E1 /* utils */,
+				5A4B21DB21D0BD9700F383E1 /* art.scnassets */,
+				5A4B21C121D0B93B00F383E1 /* AppDelegate.h */,
+				5A4B21C221D0B93B00F383E1 /* AppDelegate.m */,
+				5A4B21C421D0B93B00F383E1 /* GameViewController.h */,
+				5A4B21C521D0B93B00F383E1 /* GameViewController.m */,
+				5A4B21C921D0B93D00F383E1 /* Assets.xcassets */,
+				5A4B21CB21D0B93D00F383E1 /* Main.storyboard */,
+				5A4B21CE21D0B93D00F383E1 /* Info.plist */,
+				5A4B21CF21D0B93D00F383E1 /* main.m */,
+				5A4B21D121D0B93D00F383E1 /* MarbleMaze.entitlements */,
+			);
+			path = MarbleMaze;
+			sourceTree = "<group>";
+		};
+		5A4B21DD21D0F9DB00F383E1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B21DE21D0F9DB00F383E1 /* GameHelper.h */,
+				5A4B21DF21D0F9DB00F383E1 /* GameHelper.m */,
+				5A4B21E021D0F9DB00F383E1 /* NSColor+Extensions.h */,
+				5A4B21E121D0F9DB00F383E1 /* NSColor+Extensions.m */,
+				5A4B21E221D0F9DB00F383E1 /* SCNAction+Extensions.h */,
+				5A4B21E321D0F9DB00F383E1 /* SCNAction+Extensions.m */,
+				5A4B21E421D0F9DB00F383E1 /* SCNVector3Util.h */,
+				5A4B21E521D0F9DB00F383E1 /* random_util.c */,
+				5A4B21E621D0F9DB00F383E1 /* random_util.h */,
+				5A4B21FF21D1D10600F383E1 /* GameHelperMarble.h */,
+				5A4B220021D1D15300F383E1 /* GameHelperMarble.m */,
+			);
+			name = utils;
+			path = ../../utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4B21BD21D0B93B00F383E1 /* MarbleMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4B21D421D0B93D00F383E1 /* Build configuration list for PBXNativeTarget "MarbleMaze" */;
+			buildPhases = (
+				5A4B21BA21D0B93B00F383E1 /* Sources */,
+				5A4B21BB21D0B93B00F383E1 /* Frameworks */,
+				5A4B21BC21D0B93B00F383E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarbleMaze;
+			productName = MarbleMaze;
+			productReference = 5A4B21BE21D0B93B00F383E1 /* MarbleMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4B21B621D0B93B00F383E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KongjaStudio;
+				TargetAttributes = {
+					5A4B21BD21D0B93B00F383E1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A4B21B921D0B93B00F383E1 /* Build configuration list for PBXProject "MarbleMaze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4B21B521D0B93B00F383E1;
+			productRefGroup = 5A4B21BF21D0B93B00F383E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4B21BD21D0B93B00F383E1 /* MarbleMaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4B21BC21D0B93B00F383E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4B21CD21D0B93D00F383E1 /* Main.storyboard in Resources */,
+				5A4B21DC21D0BD9900F383E1 /* art.scnassets in Resources */,
+				5A4B21CA21D0B93D00F383E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4B21BA21D0B93B00F383E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4B21C621D0B93B00F383E1 /* GameViewController.m in Sources */,
+				5A4B21E821D0F9DB00F383E1 /* NSColor+Extensions.m in Sources */,
+				5A4B220121D1D15300F383E1 /* GameHelperMarble.m in Sources */,
+				5A4B21EA21D0F9DB00F383E1 /* random_util.c in Sources */,
+				5A4B21E721D0F9DB00F383E1 /* GameHelper.m in Sources */,
+				5A4B21D021D0B93D00F383E1 /* main.m in Sources */,
+				5A4B21E921D0F9DB00F383E1 /* SCNAction+Extensions.m in Sources */,
+				5A4B21C321D0B93B00F383E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A4B21CB21D0B93D00F383E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4B21CC21D0B93D00F383E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4B21D221D0B93D00F383E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A4B21D321D0B93D00F383E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A4B21D521D0B93D00F383E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarbleMaze/MarbleMaze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarbleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjastudio.MarbleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A4B21D621D0B93D00F383E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MarbleMaze/MarbleMaze.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarbleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjastudio.MarbleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4B21B921D0B93B00F383E1 /* Build configuration list for PBXProject "MarbleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4B21D221D0B93D00F383E1 /* Debug */,
+				5A4B21D321D0B93D00F383E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4B21D421D0B93D00F383E1 /* Build configuration list for PBXNativeTarget "MarbleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4B21D521D0B93D00F383E1 /* Debug */,
+				5A4B21D621D0B93D00F383E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4B21B621D0B93B00F383E1 /* Project object */;
+}

@@ -15,7 +15,6 @@ static GameHelper*    _shared_instance = nil;
   int             _highScore;
   int             _lastScore;
   
-  SKLabelNode*    _labelNode;
   NSMutableDictionary*    _sounds;
 }
 

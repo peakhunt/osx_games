@@ -27,6 +27,8 @@ typedef enum
 @property int lives;
 @property GameStateType state;
 
+@property SKLabelNode* labelNode;
+
 + (GameHelper*)sharedInstance;
 
 - (void)saveState;

@@ -7,6 +7,7 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include "random_util.h"
 
 int
@@ -29,4 +30,10 @@ float_random(float min, float max)
   float r32 = (float)arc4random() / (float)UINT32_MAX;
   
   return (r32 * (max - min)) + min;
+}
+
+float
+convert_to_radians(float angle)
+{
+  return angle * (M_PI / 180);
 }
